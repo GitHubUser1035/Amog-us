@@ -1,0 +1,75 @@
+body{
+    background-color: hsl(200, 30%, 70%);
+}
+.container{
+    display: inline-flex;
+    width:100px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+#timercontainer{
+    border: 3px solid black;
+    width: 596px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    
+}
+#messa{
+    opacity: 0;
+    display: inline-block;
+}
+#MainShit{
+    border: 5px solid black;
+    width: 600px;
+    height:150px;
+    background-color: gray;
+    margin-left: 300px;
+}
+#startcontainer{
+    background-color: green;
+}
+#resetcontainer{
+    background-color: blue;
+}
+#pausecontainer{
+    background-color: red;
+}
+#startcontainer:hover{
+    background-color: rgb(1, 70, 1);
+    cursor: pointer;
+}
+#resetcontainer:hover{
+    background-color: rgb(0, 0, 128);
+    cursor: pointer;
+}
+#pausecontainer:hover{
+    background-color: rgb(108, 0, 0);
+    cursor: pointer;
+}
+#startcontainer:active{
+    background-color: rgb(129, 255, 129);
+    cursor: grabbing;
+}
+#resetcontainer:active{
+    background-color: rgb(128, 128, 255);
+    cursor: grabbing;
+}
+#pausecontainer:active{
+    background-color: rgb(255, 133, 133);
+    cursor: grabbing;
+}
+#copypaste:hover{
+    cursor: pointer;
+}
+#copypaste:active{
+    cursor:grabbing;
+}
+.ur{
+    font-family: "Fredoka";
+    font-size: 45px;
+}
